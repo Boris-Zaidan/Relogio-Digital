@@ -6,6 +6,50 @@
 }
 
 body {
-  
+  height: 100vh;
+  background-image: url('../assets/fundo.jpg')  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relogio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 250px;
+  width: 600px ;
+
+  box-shadow: 0px 8px 10px rgba(42, 2, 45, 5);
+  background: transparent;
+  border-radius: 5px;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+  height: 150px;
+  width: 150px;
+  color: white;
   
 }
+
+.clock > span {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.clock > .tempo {
+  font-size: 1rem;
+}
+
+
