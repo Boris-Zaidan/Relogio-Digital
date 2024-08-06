@@ -16,5 +16,4 @@ const relogio = setInterval ( function time() {
   Minutos.textContent = min
   Segundos.textContent = seg
 
-  
 } )
